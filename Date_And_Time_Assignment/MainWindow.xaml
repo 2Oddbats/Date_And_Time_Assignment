@@ -1,0 +1,15 @@
+﻿<Window x:Class="Date_And_Time_Assignment.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Date_And_Time_Assignment"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="labelWorking" Content="Working With Date &amp; Time" HorizontalAlignment="Left" Height="45" Margin="197,43,0,0" VerticalAlignment="Top" Width="333" FontSize="24"/>
+        <Button x:Name="buttonGo" Content="Go" HorizontalAlignment="Left" Height="39" Margin="238,176,0,0" VerticalAlignment="Top" Width="117" FontSize="24" Click="buttonGo_Click"/>
+        <Label x:Name="labelResult" Content="Label" HorizontalAlignment="Left" Height="60" Margin="53,264,0,0" VerticalAlignment="Top" Width="664" FontSize="24"/>
+
+    </Grid>
+</Window>
